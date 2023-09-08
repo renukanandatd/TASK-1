@@ -33,9 +33,10 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="match_parent"
+        android:layout_width="395dp"
         android:layout_height="wrap_content"
-        android:text="click here to open camera" />
+        android:text="click here to open camera"
+        android:textSize="24sp" />
 
     <Button
         android:id="@+id/button3"
@@ -43,5 +44,13 @@
         android:layout_height="wrap_content"
         android:text="Button"
         android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="50dp"
+        tools:srcCompat="@tools:sample/avatars" />
 
 </LinearLayout>
